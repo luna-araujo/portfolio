@@ -4,12 +4,12 @@
     $primary-color 0%,
     $secondary-color 100%
   );
-  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: none;
+  clip-path: none;
   padding: 15rem 0 10rem 0;
   margin-top: -10rem;
   margin-bottom: -1px;
-  color: $white-color;
+  color: $crust;
 
   @include respond(tab-land) {
     padding: 10rem 0;
